@@ -10,4 +10,4 @@ git restore --staged command will undo the data in the staging area
 git reset --mixed - Delete changes from the local repository and staging area.It won't touch the working directory
 git reset --hard - Deleted changes from everywhere.Not possible to revert changes.
 git reset --soft - Deleted changes only from the local repository.It won't touch the staging area and working directory.
-
+hello

@@ -42,3 +42,4 @@ git cherry-pick master - Apply the change introduced by the commit at the tip of
 cat* - displays the data in the files
 git revert commit code - used for undoing changes to a repository's commit history.
 git blame file name - says who and when the file was edited. 
+
