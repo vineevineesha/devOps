@@ -1,0 +1,13 @@
+ls command displays available file
+git  add command moves file from working area to staging area
+git commit -m command will commit the file 
+git status command displays the file status 
+git push command will  move the file from local depository to remote depository(git bash)
+git pull command will help to merge the changes in remote to local depository 
+git reset command will undo the commits and send back to staging area
+git restore command will undo the data in the working area 
+git restore --staged command will undo the data in the staging area
+git reset --mixed - Delete changes from the local repository and staging area.It won't touch the working directory
+git reset --hard - Deleted changes from everywhere.Not possible to revert changes.
+git reset --soft - Deleted changes only from the local repository.It won't touch the staging area and working directory.
+

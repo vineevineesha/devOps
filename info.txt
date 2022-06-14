@@ -1,0 +1,10 @@
+Git is awesome tool
+Git is fast 
+Git is opensource and comprehensive tool
+Git is top version control system in the market
+Git is comprehensive tool
+git branch demo
+Git branch again second time
+To demo branch protection rule
+enforcing for admins
+cp-commit-one

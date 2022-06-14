@@ -1,0 +1,44 @@
+ls - displays available files that are saved before.
+mkdir - creates directory
+pwd - displays location of current working directories.
+git config global user .name 'vineesha' - sets the author name to be used with your commits.
+git config global user .email 'vineesha8804@gmail.com' - sets the author email address to be used with your commits.
+git init repository name - used to start a new repository.
+git clone url - used to obtain a repository from an existing URL.
+git rm file - deletes the file from your working directory and stages the deletion.
+git add * - adds one or more to the staging area.
+git commit -m ' enter commit comment' - commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+git diff - shows the file differences which are not yet staged.
+git diff –staged -shows the differences between the files in the staging area and the latest version present.
+git diff [first branch] [second branch] -shows the differences between the two branches mentioned.
+git push origin master - sends the committed changes of master branch to your remote repository.
+git push -all origin - pushes all branches to your remote repository.
+git pull origin master - fetches and merges changes on the remote server to your working directory.
+git status - to know the status of the local repository.
+git restore file - unstage or even discard uncommitted local changes.
+git restore --staged - Removes the file from the Staging Area, but leaves its actual modifications untouched.
+git restore --source (ref) - Restores a specific revision of the file.
+git restore --patch - Allows you to select individual chunks to restore.
+git reset (file) - used when we want to move the repository back to a previous commit, discarding any changes made after that commit.
+git reset --soft - Deleted changes only from the local repository.It won't touch the staging area and working directory.
+git reset --mixed - Delete changes from the local repository and staging area.It won't touch the working directory.
+git reset --hard - Deleted changes from everywhere.Not possible to revert changes.
+git branch branch name - creates a new branch.
+git branch -d branch name - deletes the feature branch.
+git checkout branch name - used to switch from one branch to another.
+git checkout -b branch name - creates a new branch and switches to it.
+git merge branch name -merges the specified branch’s history into the current branch.
+git remote add origin remote link - used to connect your local repository to the remote server.
+git stash save - temporarily stores all the modified tracked files.
+git stash pop -restores the most recently stashed files.
+git stash list - lists all stashed changesets.
+git stash drop  - discards the most recently stashed changeset.
+git log - used to list the version history for the current branch.
+git log -number - recent commits will be displayed.
+git log --oneline - to avoid the very long log list, we are going to use the --oneline option, which gives just one line commit
+cd.. - it takes the path of the directory where we want to move to as the argument
+rm -rf .git - to delete git inside git 
+git cherry-pick master - Apply the change introduced by the commit at the tip of the master branch and create a new commit with this change.
+cat* - displays the data in the files
+git revert commit code - used for undoing changes to a repository's commit history.
+git blame file name - says who and when the file was edited. 
